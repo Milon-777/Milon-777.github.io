@@ -21,4 +21,7 @@ yarn-debug.log*
 yarn-error.log*
 
 # private data
-src/mailer/smart.php
+dist/mailer/smart.php
+
+# working directory
+src
