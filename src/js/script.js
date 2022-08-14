@@ -211,3 +211,45 @@ const maskOptions = {
 elements.forEach((elem) => {
   mask = IMask(elem, maskOptions);
 });
+
+//Mails
+document.addEventListener("submit", function (event, i) {
+  event.preventDefault();
+  fetch("mailer/smart.php", {
+    method: "POST",
+    body: new FormData(event.target),
+  })
+    .then(function (response) {
+      if (response.ok) {
+        return response.json();
+      }
+      return Promise.reject(response);
+    })
+    .then(function (data) {
+      console.log(data);
+    })
+    .catch(function (error) {
+      console.log(error);
+    });
+});
+
+//Page scroll up
+let scrollUpBtn = document.querySelector(".pageup");
+document.addEventListener("scroll", (e) => {
+  if (self.scrollY > 1600) {
+    scrollUpBtn.style.display = "block";
+  } else {
+    scrollUpBtn.style.display = "none";
+  }
+});
+
+scrollUpBtn.addEventListener("click", () => {
+  setTimeout(function () {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  }, 2);
+});
+
+// window.WOW = require("wowjs");
