@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 @import "base/variables";
 * {
   font-family: $museo-font-family, sans-serif;
@@ -29,35 +28,3 @@
 @import "blocks/modal";
 @import "blocks/pageup";
 @import "media";
-=======
-@import "base/variables";
-* {
-  font-family: $museo-font-family, sans-serif;
-  a {
-    text-decoration: none;
-    color: #ffffff;
-    &:hover {
-      color: #ffffff;
-    }
-  }
-}
-.container {
-  max-width: 950px;
-  margin: 0 auto;
-}
-
-@import "blocks/promo";
-@import "blocks/header";
-@import "blocks/buttons";
-@import "blocks/advantages";
-@import "blocks/titles";
-@import "blocks/consultation";
-@import "blocks/forms";
-@import "blocks/carousel";
-@import "blocks/catalog";
-@import "blocks/reviews";
-@import "blocks/footer";
-@import "blocks/modal";
-@import "blocks/pageup";
-@import "media";
->>>>>>> 25182ac9d077993c63088dd63fc6dd6a67974ded

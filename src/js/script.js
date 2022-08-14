@@ -199,7 +199,11 @@ function validateForm(form) {
         rule: "email",
         errorMessage: "Неправильний формат пошти!",
       },
-    ]);
+    ])
+    .onSuccess((e) => {
+      hideModals();
+      showModal(thanksModal);
+    });
 }
 
 //Phone input mask
