@@ -145,8 +145,7 @@ orderBtns.forEach((elem, i) => {
 
 thanksBtns.forEach((elem) => {
   elem.addEventListener("click", (e) => {
-    // e.preventDefault();
-    // showModal(thanksModal);
+    showModal(thanksModal);
   });
 });
 
