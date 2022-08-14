@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @media (max-width: 1199px) {
 }
 @media (max-width: 991px) {
@@ -239,3 +240,246 @@
     }
   }
 }
+=======
+@media (max-width: 1199px) {
+}
+@media (max-width: 991px) {
+  .container {
+    max-width: 720px;
+  }
+  .advantages {
+    &__item {
+      width: 220px;
+    }
+  }
+  .carousel {
+    padding: 15px 0 30px;
+    &__inner {
+      width: 450px;
+    }
+    .swiper {
+      &-slide {
+        img {
+          width: 350px;
+          height: 250px;
+        }
+      }
+    }
+  }
+  .catalog {
+    &__tabs {
+      padding-top: 10px;
+    }
+    &__content {
+      margin-top: 30px;
+    }
+  }
+}
+@media (max-width: 767px) {
+  .container {
+    max-width: 500px;
+  }
+  .promo {
+    .header {
+      &__official {
+        display: none;
+      }
+    }
+    &__wrapper {
+      align-items: center;
+    }
+    &__subheader {
+      text-align: center;
+    }
+  }
+  .advantages {
+    padding: 40px-0;
+    &__wrapper {
+      flex-direction: column;
+      align-items: center;
+      margin-top: 25px;
+    }
+    &__item {
+      margin-bottom: 25px;
+      width: 100%;
+    }
+    &__subtitle {
+      margin-top: 19px;
+    }
+    &__descr {
+      margin-top: 13px;
+      width: 300px;
+    }
+  }
+  .consultation {
+    padding: 50px 0 30px 0;
+    .title_left {
+      text-align: center;
+      font-size: 26px;
+    }
+    &__descr {
+      text-align: center;
+      margin-top: 15px;
+    }
+    .feedback-form {
+      align-items: center;
+      width: 100%;
+      input {
+        text-align: center;
+      }
+    }
+  }
+  .reviews {
+    &__item {
+      flex-direction: column;
+      margin-top: 30px;
+    }
+    &__content {
+      margin-left: 0;
+      padding: 0 30px;
+    }
+    &__photo {
+      display: block;
+      margin: 0 auto;
+    }
+    &__customer {
+      margin-top: 10px;
+      text-align: center;
+    }
+    &__marathons {
+      text-align: center;
+    }
+    &__text {
+      text-align: justify;
+      font-size: 14px;
+    }
+  }
+  .footer {
+    &__info {
+      width: 100%;
+      height: 180px;
+      padding: 30px;
+    }
+  }
+}
+@media (max-width: 575px) {
+  .container {
+    max-width: 300px;
+  }
+  .promo {
+    .header {
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      &__logo {
+        width: 200px;
+      }
+      &__contacts {
+        width: 300px;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: row;
+        margin-top: 10px;
+      }
+      &__phone {
+        font-size: 14px;
+      }
+    }
+    &__wrapper {
+      margin-top: 40px;
+    }
+    &__header {
+      font-size: 24px;
+    }
+    &__subheader {
+      font-size: 16px;
+      margin-top: 0px;
+    }
+    &__icons {
+      justify-content: center;
+      width: 310px;
+      margin-top: 60px;
+    }
+    .button_main {
+      margin-top: 60px;
+      width: 270px;
+    }
+  }
+  .consultation {
+    .title_left {
+      font-size: 18px;
+    }
+    &__descr {
+      font-size: 15px;
+    }
+    .feedback-form {
+      input {
+        width: 290px;
+      }
+      .button {
+        &_submit {
+          width: 290px;
+        }
+      }
+    }
+  }
+
+  .carousel {
+    &__inner {
+      width: 320px;
+    }
+    .swiper {
+      &-slide {
+        img {
+          width: 220px;
+          height: 180px;
+        }
+      }
+    }
+  }
+  .catalog {
+    padding-bottom: 50px;
+    .title {
+      font-size: 22px;
+    }
+    &__tabs {
+      flex-direction: column;
+    }
+    &__tab {
+      width: 180px;
+      margin-top: 10px;
+      font-size: 15px;
+    }
+    &-item {
+      width: 280px;
+      margin: 0;
+      margin-top: 10px;
+    }
+  }
+  .popup-window {
+    .feedback-form {
+      &_mt25 {
+        align-items: center;
+        width: 200px;
+        input {
+          align-items: center;
+          width: 100%;
+        }
+        .button {
+          &_submit {
+            width: 100%;
+          }
+        }
+      }
+    }
+    .modal {
+      padding: 30px;
+      width: 260px;
+      &__close {
+        top: 5px;
+        right: 4px;
+      }
+    }
+  }
+}
+>>>>>>> 25182ac9d077993c63088dd63fc6dd6a67974ded
